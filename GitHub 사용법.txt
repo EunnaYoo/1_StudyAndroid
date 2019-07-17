@@ -1,0 +1,69 @@
+[ cmd 사용해서 git commit & push ]
+
+1. 레파지토리 생성
+
+2. git 설치 확인 
+cmd → git --version
+
+3. git 환경 설정
+git config --global user.name dmssk6788
+git config --global user.email dmssk6788@gmail.com
+
+4. 생성한 폴더로 git 경로
+cd c:\GitTutorial
+
+5. 폴더 내 디렉토리 확인 : dir
+
+6. 레파지토리 불러오기 → 로컬 레파지토리
+git clone https://github.com/EunnaYoo/Education.git
+
+7. c 드라이브에 생성한 폴더 내에 연결된 레파지토리로 연결
+cd 레파지토리명
+
+8. add
+git add 파일명
+
+9. 현 git 상태 확인
+git status
+
+10. commit
+git commit -m "test"
+
+11. push
+git push
+
+12. 변경된 파일 재 commit
+git status : 상태 확인 → git add . : git status에 있는 것을 한꺼번에
+
+13. add 시키 것을 다시 내리기
+git reset test.java
+
+14. 이전 내용을 반영하지 않고 되돌리기
+git chekout -- 파일명
+
+15. 푸쉬하기 전 커밋 메시지 변경 가능
+git commit --amend → a 누르면 insert → esc + shift + ; + wq
+
+16. 깃허브에 있는 소스코드 불러오기
+	(1) cd.. : 경로의 이전 경로로 되돌아가기
+	(2) 새경로 입력 ( 위와 동일 )
+	(3) 
+
+17. 레파지토리 동기화 : git pull ( 같은 레파지토리를 클론한 상태일 때 )
+
+18. commit 상태로 돌아가기
+git log →  Hash값 복붙
+
+19. git reset --hard Hash값
+- hard 옵션일 경우 위 Hash값 다음에 있는 커밋 상태는 다 사라지게됨
+- soft 옵션은 남아있음
+→ git push -f
+
+
+
+
+
+
+
+
+
