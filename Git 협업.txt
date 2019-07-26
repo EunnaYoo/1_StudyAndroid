@@ -1,0 +1,24 @@
+1. 새 폴더 생성
+
+2. 레파지토리 로컬로 가져오기
+	- git fetch
+	- git pull
+	
+3. 브랜치 생성
+	- git branch ( 현재 존재하는 브랜치 확인 )
+	- git branch branch_name
+
+4. 만든 브랜치로 옮기기
+	- git checkout branch_name
+
+5. 로컬이랑 원격 저장소 브랜치 연동
+	- git push origin branch_name
+	
+6. merge 방법
+	- git checkout master ( 마스터 브랜치로 이동 )
+	- git merge branch_name
+	
+7. git sub branch로 이동
+	- git checkout branch_name ( checkout으로 찍어준 후 )
+	- git branch
+	
